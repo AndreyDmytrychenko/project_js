@@ -15,7 +15,7 @@
 
 
 'use strict';
-
+ 
 
 let numberOfFilms;
 
@@ -36,7 +36,7 @@ const personalMovieDB = {
 for (let i = 0; i < 2; i++) { 
         
     let a, b;
-    while (a == null || b == null ||  a.length > 50 || a.length == 0 || b.length ==0) {
+    while (a == null || b == null ||  a.length > 50 || a.length == 0 || b.length == 0) {
             a = prompt('Один из последних просмотренных фильмов?', ''),
             b = prompt('На сколько оцените его?', '');
             }
@@ -56,3 +56,11 @@ if (personalMovieDB.count < 10) {
 
 
 console.log(personalMovieDB);
+
+
+
+
+
+
+
+
